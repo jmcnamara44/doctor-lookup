@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Doctor Lookup</title>
+  </head>
+  <body>
+    <div class="conatainer">
+      <h1>Find a Doctor in your area</h1>
+      <h2>Would you like to find doctor's that treat a specific condition, or a list of doctors based on a name?</h2>
+      <button class="btn btn-warning" id="doctor-button">Doctor Name</button>
+      <button class="btn btn-warning" id="condition-button">Condition</button>
+      <form id="search">
+        <div class="form-group" id="doctor">
+          <label for="doctor-search">Enter in a name to see what doctors match that search</label>
+          <input id="doctor-search" name="doctor-search" type="text">
+        </div>
+        <div class="form-group" id="condition">
+          <label for="condition-search">Enter in a medical condition to see what doctors treat that</label>
+          <input id="condition-search" name="condition-search" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+      <div class="results"></div>
+    </div>
+  </body>
+</html>
