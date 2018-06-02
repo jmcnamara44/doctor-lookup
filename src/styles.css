@@ -1,7 +1,3 @@
-/* #doctor {
-  display: none;
-} */
-
-#condition {
-  display: none;
+body {
+  background-color: green;
 }
